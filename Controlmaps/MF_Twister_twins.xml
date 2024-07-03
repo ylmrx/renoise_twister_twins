@@ -14,7 +14,7 @@
             </Column>
             <Column>
                 <!-- Encoders -->
-                <Group name="Encoders" orientation="vertical" columns="7">
+                <Group name="Encoders" orientation="vertical" columns="8">
                     <Param value="CC#1|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
                     <Param value="CC#2|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
                     <Param value="CC#3|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
@@ -30,6 +30,7 @@
                     <Param value="CC#13|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
                     <Param value="CC#14|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
                     <Param value="CC#15|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
+                    <Param value="CC#16|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
                 </Group>
                 <Group name="EncodersStatus" orientation="vertical" columns="8">
                     <Param value="CC#1|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2"  />
@@ -43,15 +44,16 @@
                     <Param value="CC#9|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
                     <Param value="CC#10|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
                     <Param value="CC#11|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
-                    <Param value="CC#11|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
                     <Param value="CC#12|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
                     <Param value="CC#13|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
                     <Param value="CC#14|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
                     <Param value="CC#15|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
+                    <Param value="CC#16|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2" />
+
                 </Group>
                 <Group name="FxSelector" orientation="vertical" columns="1">
-                    <Param value="CC#16|Ch15" maximum="127" minimum="0" type="dial" size="1.5" />
-                    <Param value="CC#16|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2"/>
+                    <Param value="CC#16|Ch5" maximum="127" minimum="0" type="dial" size="1.5" />
+                    <!-- <Param value="CC#16|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2"/> -->
                     <!-- <Param value="CC#5|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2"/>
                     <Param value="CC#6|Ch16" maximum="127" minimum="0" type="button" size="1.5" aspect="0.2"/> -->
                 </Group>
